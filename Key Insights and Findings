@@ -1,0 +1,15 @@
+## Key Insights and Findings
+
+- Filtered the **2019 Survey of Consumer Finances (SCF)** to analyze households that feared credit denial and had a net worth below **$2 million**.
+- Identified the **highest-variance financial features** to improve clustering performance.
+- Applied **StandardScaler** to normalize features before clustering.
+- Used **K-Means clustering** to segment households into distinct financial groups.
+- Evaluated clustering performance using **Inertia** and **Silhouette Score** to determine the optimal number of clusters.
+- Applied **Principal Component Analysis (PCA)** to reduce the feature space for visualization.
+- Built an **interactive Plotly Dash dashboard** that enables users to:
+  - Compare trimmed and untrimmed variance.
+  - Adjust the number of clusters (`k`).
+  - View clustering metrics in real time.
+  - Explore household segments through PCA scatter plots.
+- Demonstrated how **unsupervised machine learning** can reveal meaningful patterns in consumer financial behavior without relying on labeled target variables.
+```
